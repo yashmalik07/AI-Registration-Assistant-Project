@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Greetings"],
+      "responses": ["Hello! Welcome to the Internship Registration Assistant."]
+    },
+    {
+      "tag": "register",
+      "patterns": ["I want to register", "Apply for internship", "Start registration", "How to apply"],
+      "responses": ["Great! Let's start your registration process."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Thanks", "Thank you"],
+      "responses": ["Thank you! Have a great day."]
+    }
+  ]
+}
